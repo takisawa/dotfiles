@@ -26,6 +26,8 @@ set wrapscan
 " パターンが大文字を含むときは文字の大小を区別する
 set smartcase
 
+" vimgrepで自動的にQuickFixを開く
+autocmd QuickFixCmdPost *grep* cwindow
 
 " ===== バックアップファイル関連 =====
 
