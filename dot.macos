@@ -1,0 +1,7 @@
+# ~/.macos
+
+# キーリピート開始までの時間 15ms * 10 = 150ms
+defaults write NSGlobalDomain InitialKeyRepeat -int 10
+
+# キーリピードを高速にする 15ms * 1 = 15ms
+defaults write NSGlobalDomain KeyRepeat -int 1
