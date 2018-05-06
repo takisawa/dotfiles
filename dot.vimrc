@@ -31,11 +31,14 @@ autocmd QuickFixCmdPost *grep* cwindow
 
 " ===== バックアップファイル関連 =====
 
-" アンドゥ情報をファイルに保存する
+" アンドゥ情報をファイルに保存しない
 set noundofile
 
-" 上書きした時にバックアップを作成する。
+" 上書きした時にバックアップを作成しない
 set nobackup
+
+" スワップファイルを作成しない
+set noswapfile
 
 
 " ===== Vundle =====
