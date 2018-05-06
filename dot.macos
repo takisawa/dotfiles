@@ -5,3 +5,6 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 12
 
 # キーリピードを高速にする 15ms * 1 = 15ms
 defaults write NSGlobalDomain KeyRepeat -int 1
+
+# .DS_Storeを作成しない
+defaults write com.apple.desktopservices DSDontWriteNetworkStores True
