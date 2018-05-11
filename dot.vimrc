@@ -14,6 +14,8 @@ set list
 " 'list' オン時に使う文字
 set listchars=tab:^\ ,trail:@
 
+" ベルを鳴らさない
+set belloff=all
 
 " ===== 検索関連 =====
 
