@@ -17,6 +17,7 @@ set listchars=tab:^\ ,trail:@
 " ベルを鳴らさない
 set belloff=all
 
+
 " ===== 検索関連 =====
 
 " 検索パターン入力中にその文字を強調表示する
@@ -31,6 +32,7 @@ set smartcase
 " vimgrepで自動的にQuickFixを開く
 autocmd QuickFixCmdPost *grep* cwindow
 
+
 " ===== バックアップファイル関連 =====
 
 " アンドゥ情報をファイルに保存しない
@@ -41,6 +43,10 @@ set nobackup
 
 " スワップファイルを作成しない
 set noswapfile
+
+
+" ===== Filetype =====
+autocmd BufRead,BufNewFile *.rb setfiletype ruby
 
 
 " ===== Vundle =====
