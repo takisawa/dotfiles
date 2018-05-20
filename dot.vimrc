@@ -45,8 +45,19 @@ set nobackup
 set noswapfile
 
 
-" ===== Filetype =====
-autocmd BufRead,BufNewFile *.rb setfiletype ruby
+" ===== 入力関連（グローバル） =====
+
+" 挿入モードで <Tab> を入力した場合にスペースに置き換える。
+set expandtab
+
+" 新しい行を開始したとき、新しい行のインデントを現在行と同じくする。
+set autoindent
+
+" autoindent で挿入されるスペースの数。
+set shiftwidth=2
+
+" 既に入力されている <Tab> をスペース何文字で表示するか。
+set tabstop=2
 
 
 " ===== Vundle =====
