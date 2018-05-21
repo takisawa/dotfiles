@@ -60,6 +60,12 @@ set shiftwidth=2
 set tabstop=2
 
 
+" ===== 入力関連（グローバル） =====
+
+" <C-l> で画面の再描画に加えて、 hlsearch による強調表示を解除
+nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
+
+
 " ===== Vundle =====
 " -----------------------------------------------------------------------------
 " https://github.com/VundleVim/Vundle.vim
