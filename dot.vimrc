@@ -29,6 +29,9 @@ set wrapscan
 " パターンが大文字を含むときは文字の大小を区別する
 set smartcase
 
+" smartcase が ON なので小文字の場合に大文字小文字を区別しない
+set ignorecase
+
 " vimgrepで自動的にQuickFixを開く
 autocmd QuickFixCmdPost *grep* cwindow
 
@@ -70,6 +73,10 @@ nnoremap j gj
 nnoremap k gk
 nnoremap <Down> gj
 nnoremap <Up>   gk
+
+
+" ===== コマンド関連 =====
+set history=1000
 
 
 " ===== Vundle =====
