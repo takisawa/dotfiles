@@ -17,6 +17,9 @@ set listchars=tab:^\ ,trail:@
 " ベルを鳴らさない
 set belloff=all
 
+" カラースキーム
+colorscheme mycs
+
 
 " ===== 検索関連 =====
 
