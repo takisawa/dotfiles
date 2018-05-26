@@ -8,3 +8,8 @@ defaults write NSGlobalDomain KeyRepeat -int 1
 
 # .DS_Storeを作成しない
 defaults write com.apple.desktopservices DSDontWriteNetworkStores True
+
+# Mac 起動時の音を鳴らさない
+#
+# NVRAM(Non-Volatile RAM 不揮発性メモリ)の管理については `man nvram`
+# sudo nvram SystemAudioVolume=%80
