@@ -23,6 +23,21 @@ colorscheme mycs
 " カーソルを点滅しない
 set guicursor=a:blinkon0
 
+" ツールバー消す
+set guioptions-=T
+
+" 右スクロールバーを表示しない
+set guioptions-=r
+
+" 左スクロールバーを表示しない
+set guioptions-=l
+
+" 垂直分割されたウィンドウがあるときも右スクロールバーを表示しない
+set guioptions-=R
+
+" 垂直分割されたウィンドウがあるときも左スクロールバーを表示しない
+set guioptions-=L
+
 
 " ===== 検索関連 =====
 
