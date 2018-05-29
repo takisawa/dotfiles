@@ -20,6 +20,9 @@ set belloff=all
 " カラースキーム
 colorscheme mycs
 
+" カーソルを点滅しない
+set guicursor=a:blinkon0
+
 
 " ===== 検索関連 =====
 
