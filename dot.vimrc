@@ -44,6 +44,9 @@ set guioptions-=L
 
 " ===== 検索関連 =====
 
+" 検索にマッチした部分をハイライトする
+set hlsearch
+
 " 検索パターン入力中にその文字を強調表示する
 set incsearch
 
