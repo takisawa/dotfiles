@@ -101,6 +101,8 @@ nnoremap k gk
 nnoremap <Down> gj
 nnoremap <Up>   gk
 
+" コマンドラインモードでCtrl-xで開いているファイルの相対パスを展開する
+cnoremap C-x <C-R>=expand("%:p:h") . "/" <CR>
 
 " ===== コマンド関連 =====
 set history=1000
