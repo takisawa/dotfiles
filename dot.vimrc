@@ -139,3 +139,8 @@ map <C-n> :NERDTreeToggle<CR>
 
 " ===== プラグイン =====
 set runtimepath+=~/.vim/plugin/
+
+
+
+" ===== vim-go =====
+let g:go_fmt_command = "goimports"
