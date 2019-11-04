@@ -8,6 +8,9 @@ syntax enable
 " 行番号を表示する
 set number
 
+" Show the line and column number of the cursor position
+set ruler
+
 " 括弧入力時に対応する括弧を知らせる
 set showmatch
 
